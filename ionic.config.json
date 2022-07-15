@@ -1,0 +1,7 @@
+{
+  "name": "iontask",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
