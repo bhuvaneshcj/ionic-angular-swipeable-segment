@@ -1,4 +1,4 @@
-## Multiple Image Upload in Ionic 6
+## Ion Segment with Swipeable in Ionic-6
 
 Hi Guys, In this example i will show you how to make the Ion Segment to Swipeable in Ionic 6.
 
