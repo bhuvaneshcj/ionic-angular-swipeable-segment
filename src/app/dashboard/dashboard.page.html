@@ -1,0 +1,40 @@
+<ion-header>
+    <ion-toolbar color="tertiary">
+        <ion-title>Ion Segment With Swipe</ion-title>
+    </ion-toolbar>
+    <ion-toolbar color="tertiary">
+        <ion-segment [(ngModel)]="selectedSegment">
+            <ion-segment-button [value]="item" *ngFor="let item of segmentList;let i = index"
+                (click)="_segmentSelected(item,i)">
+                <ion-label class="segment-text">{{item}}</ion-label>
+            </ion-segment-button>
+        </ion-segment>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-slides #slide (ionSlideDidChange)="_ionSlideDidChange($event)">
+
+        <ion-slide value="0">
+            <div>
+                <ion-label>1st Segment</ion-label>
+            </div>
+        </ion-slide>
+
+
+        <ion-slide value="1">
+            <div>
+                <ion-label>2nd Segment</ion-label>
+            </div>
+        </ion-slide>
+
+        <ion-slide value="2">
+            <div>
+                <ion-label>3rd Segment</ion-label>
+            </div>
+        </ion-slide>
+
+    </ion-slides>
+
+</ion-content>
