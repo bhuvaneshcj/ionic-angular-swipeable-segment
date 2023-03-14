@@ -1,29 +1,15 @@
-## Ion Segment with Swipeable in Ionic-6
+# Ionic Angular Swipeable Segment
 
-Hi Viewers, In this example you can see the source code of Ion Segment to Swipeable in Ionic 6
+In this example you can see the source code of Ion Segment to Swipeable in Ionic 6
 
-## Screenshots
+## Getting started
 
-<img src="/screenshots/screenshot.png" width=20% height=20%>
+- [Download the installer](https://nodejs.org/) for Node LTS.
+- Install the Ionic CLI globally `npm install -g @ionic/cli`
+- Clone this repository `git clone https://github.com/bhuvaneshcj/ionic-angular-swipeable-segment.git`.
+- Run `npm install` from the project root.
+- Run `ionic serve` in a terminal from the project root.
 
-## Getting Started
+## Screenshot
 
-#### 1. Clone the repository
-
-```
-git clone https://github.com/bhuvaneshcj/Ion-Segment-with-Swipeable-in-Ionic-6.git --branch=master
-```
-
-### 2. Install the node packages by using the below command inside the project folder
-
-> check your node version should be 16.13.1 before installing node package
-
-```
-npm install
-```
-
-### 3. After the node package installation run the project
-
-```
-ionic serve
-```
+![SwipeableSegment](src/assets/screenshots/screenshots.jpg)
