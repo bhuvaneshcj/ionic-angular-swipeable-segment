@@ -1,6 +1,6 @@
 # Ionic Angular Swipeable Segment
 
-In this example you can see the source code of Ion Segment to Swipeable in Ionic 6
+I'll demonstrate how to swipe the ion segment using ion slide
 
 ## Getting started
 
