@@ -12,4 +12,4 @@ I'll demonstrate how to swipe the ion segment using ion slide
 
 ## Screenshot
 
-![SwipeableSegment](screenshots/screenshot.png)
+<img src="screenshots/screenshot.png" width=20% height=20%>
